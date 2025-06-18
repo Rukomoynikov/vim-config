@@ -34,10 +34,6 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
-require("catppuccin").setup()
-
-require("nvim-tree").setup()
-
 local builtin = require('telescope.builtin')
 
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
