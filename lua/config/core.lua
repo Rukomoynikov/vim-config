@@ -20,4 +20,4 @@ vim.opt.syntax = "on"
 vim.wo.relativenumber = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
-
+vim.keymap.set("i", "jj", "<Esc>")
